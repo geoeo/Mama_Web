@@ -1,11 +1,21 @@
 @import "decl";
 @import "navbar";
-@import "navbarActive";
 @import "bootstrap/mixins";
 
 @tab-pane-offset: 50px;
 
+#email-button {
+  margin-top: 20px;
+
+  width: 380px;
+
+}
+
 // Bootstrap override
+
+span.glyphicon-envelope {
+  font-size: 20px;
+}
 
 // Carousel fade effect
 .carousel-fade {
@@ -70,6 +80,17 @@
   padding-left: 13%;
 }
 
+#main-nav-tab li {
+
+    &.active{
+      color: @background-top;
+
+    }
+
+    text-decoration: none;
+
+}
+
 .tab-pane {
   width:82%;
 }
@@ -88,12 +109,6 @@
 
 .tag-title {
   font-size: 23px;
-}
-
-.fade {
-  opacity: 0;
-  -webkit-transition: opacity 1.25s linear;
-  transition: opacity 1.25s linear;
 }
 
 // Mobile and Tablet specific settings

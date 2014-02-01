@@ -280,12 +280,12 @@ textarea {
   line-height: inherit;
 }
 a {
-  color: #428bca;
+  color: #ffffff;
   text-decoration: none;
 }
 a:hover,
 a:focus {
-  color: #2a6496;
+  color: #d9d9d9;
   text-decoration: underline;
 }
 a:focus {
@@ -2271,7 +2271,7 @@ fieldset[disabled] .btn-danger.active {
   background-color: #ffffff;
 }
 .btn-link {
-  color: #428bca;
+  color: #ffffff;
   font-weight: normal;
   cursor: pointer;
   border-radius: 0;
@@ -2292,7 +2292,7 @@ fieldset[disabled] .btn-link {
 }
 .btn-link:hover,
 .btn-link:focus {
-  color: #2a6496;
+  color: #d9d9d9;
   text-decoration: underline;
   background-color: transparent;
 }
@@ -3477,7 +3477,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .nav .open > a:hover,
 .nav .open > a:focus {
   background-color: #eeeeee;
-  border-color: #428bca;
+  border-color: #ffffff;
 }
 .nav .nav-divider {
   height: 1px;
@@ -4137,7 +4137,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   padding: 6px 12px;
   line-height: 1.428571429;
   text-decoration: none;
-  color: #428bca;
+  color: #ffffff;
   background-color: #ffffff;
   border: 1px solid #dddddd;
   margin-left: -1px;
@@ -4157,7 +4157,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .pagination > li > span:hover,
 .pagination > li > a:focus,
 .pagination > li > span:focus {
-  color: #2a6496;
+  color: #d9d9d9;
   background-color: #eeeeee;
   border-color: #dddddd;
 }
@@ -4352,7 +4352,7 @@ a.badge:focus {
 }
 a.list-group-item.active > .badge,
 .nav-pills > .active > a > .badge {
-  color: #428bca;
+  color: #ffffff;
   background-color: #ffffff;
 }
 .nav-pills > li > a > .badge {
@@ -4415,7 +4415,7 @@ a.list-group-item.active > .badge,
 a.thumbnail:hover,
 a.thumbnail:focus,
 a.thumbnail.active {
-  border-color: #428bca;
+  border-color: #ffffff;
 }
 .thumbnail .caption {
   padding: 9px;

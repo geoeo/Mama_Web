@@ -6,7 +6,7 @@
     <meta charset="utf-8">
     <!-- Bootstrap core CSS -->
     <link rel="stylesheet" type="text/css" href="../css/min/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="../css/min/bootstrap-theme.min.css">
+    <!--<link rel="stylesheet" type="text/css" href="../css/min/bootstrap-theme.min.css">-->
     <link rel="stylesheet" type="text/css" href="../css/min/index.min.css">
 </head>
 <body>
@@ -18,7 +18,7 @@
             <!-- Nav bar
                 ================================================== -->
 
-            <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+            <nav class="navbar navbar-default " role="navigation">
                 <!-- Brand and toggle get grouped for better mobile display -->
                 <div class="navbar-header">
                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#title-nav">
@@ -134,17 +134,20 @@
         <div class="tab-pane fade" id="tabFour">
             <div class="row" style="padding-bottom: 20px;">
                 <div class="col-md-6">
-                    <h3>Adresse</h3>
                     <p>
+                        <!--Möchten Sie einen <strong>Termin</strong> vereinbaren?<br>-->
+                        <!--Oder haben Sie <strong>Fragen</strong>?<br><br>-->
+                        <a id="email-button" href="mailto:Elisabeth.Haubenstock@chello.at?subject=Ordination Termin"
+                           class="btn btn-default" data-toggle="tooltip" data-placement="left" title="Email">
+                            <span class="glyphicon glyphicon-envelope"></span>
+                        </a>
+                        <hr>
+                         <h3>Adresse</h3>
                         Pfefferhofgasse 6/2 <br>
                         1030, Wien<br>
                         <!-- TODO: Telefon -->
                         <abbr title="Telefon">Tel</abbr>: ...
                         <hr>
-                        Möchten Sie einen <strong>Termin</strong> vereinbaren?<br>
-                        Oder haben Sie <strong>Fragen</strong>?<br>
-                        <a href="mailto:Elisabeth.Haubenstock@chello.at">Elisabeth.Haubenstock@chello.at</a>
-                    <hr>
                     <h3>Anfahrt mit den Öffentlichen</h3>
                     <h4>U3/U4/Schnellbahn</h4>
                         <ul>
@@ -182,6 +185,7 @@
             $("#mainCarousel").carousel({
                interval : 12000
             });
+            $("#email-button").tooltip();
 
         })
     </script>
