@@ -6,6 +6,9 @@ hr {
   background-color: black;
   color: black;
 }
+.navbar {
+  border-radius: 0;
+}
 .navbar-brand {
   font-size: 25px;
   font-weight: 200;

@@ -23,10 +23,66 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/view/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="104" column="19" selection-start="5035" selection-end="5035" vertical-scroll-proportion="-65.0" vertical-offset="0" max-vertical-offset="3000">
+            <state line="111" column="107" selection-start="5279" selection-end="5279" vertical-scroll-proportion="0.33208954" vertical-offset="1487" max-vertical-offset="3180">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="links.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/view/links.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="780">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="navbar.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/navbar.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="45" column="0" selection-start="750" selection-end="750" vertical-scroll-proportion="0.0" vertical-offset="166" max-vertical-offset="765">
+              <folding>
+                <marker date="1391297448000" expanded="true" signature="63:97" placeholder="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="navbar.less" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/less/navbar.less">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="1" column="23" selection-start="44" selection-end="44" vertical-scroll-proportion="-0.625" vertical-offset="0" max-vertical-offset="585">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="navbar.less" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/less/bootstrap/navbar.less">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="335" column="9" selection-start="7764" selection-end="7771" vertical-scroll-proportion="5.64" vertical-offset="5307" max-vertical-offset="9330">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="navbarActive.less" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/less/navbarActive.less">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="26" selection-start="114" selection-end="119" vertical-scroll-proportion="-4.375" vertical-offset="0" max-vertical-offset="540">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="me.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/me.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="5" column="0" selection-start="69" selection-end="69" vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="810">
               <folding />
             </state>
           </provider>
@@ -41,10 +97,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="variables.less" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="variables.less" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/less/bootstrap/variables.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="29" selection-start="856" selection-end="856" vertical-scroll-proportion="0.70434785" vertical-offset="75" max-vertical-offset="12495">
+            <state line="32" column="29" selection-start="856" selection-end="856" vertical-scroll-proportion="-16.875" vertical-offset="75" max-vertical-offset="12495">
               <folding />
             </state>
           </provider>
@@ -78,8 +134,6 @@
         <option value="$PROJECT_DIR$/css/less/kontakte.less" />
         <option value="$PROJECT_DIR$/css/less/me.less" />
         <option value="$PROJECT_DIR$/css/less/links.less" />
-        <option value="$PROJECT_DIR$/css/less/navbar.less" />
-        <option value="$PROJECT_DIR$/css/less/navbarActive.less" />
         <option value="$PROJECT_DIR$/view/links.html" />
         <option value="$PROJECT_DIR$/view/kontakte.html" />
         <option value="$PROJECT_DIR$/view/me.html" />
@@ -87,8 +141,11 @@
         <option value="$PROJECT_DIR$/css/index.css" />
         <option value="$PROJECT_DIR$/css/less/decl.less" />
         <option value="$PROJECT_DIR$/css/less/index.less" />
-        <option value="$PROJECT_DIR$/view/index.html" />
         <option value="$PROJECT_DIR$/css/less/bootstrap/variables.less" />
+        <option value="$PROJECT_DIR$/css/navbar.css" />
+        <option value="$PROJECT_DIR$/css/less/navbar.less" />
+        <option value="$PROJECT_DIR$/css/less/navbarActive.less" />
+        <option value="$PROJECT_DIR$/view/index.html" />
       </list>
     </option>
   </component>
@@ -459,11 +516,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/css/index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="1" selection-start="174" selection-end="174" vertical-scroll-proportion="0.0" vertical-offset="120" max-vertical-offset="1470" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/view/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="160" column="40" selection-start="8178" selection-end="8178" vertical-scroll-proportion="0.0" vertical-offset="2087" max-vertical-offset="2730">
@@ -603,13 +655,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/me.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="599">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/links.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="599">
@@ -621,7 +666,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="17" column="0" selection-start="244" selection-end="244" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="765">
           <folding>
-            <marker date="1391291050000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1391297448000" expanded="true" signature="-1:-1" placeholder="{...}" />
           </folding>
         </state>
       </provider>
@@ -661,22 +706,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/navbar.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="720">
-          <folding>
-            <marker date="1391291050000" expanded="true" signature="-1:-1" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/less/navbarActive.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="4" selection-start="125" selection-end="146" vertical-scroll-proportion="-4.375" vertical-offset="0" max-vertical-offset="540">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/view/kontakte.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="810">
@@ -698,13 +727,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/view/links.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="14" selection-start="961" selection-end="961" vertical-scroll-proportion="-13.0" vertical-offset="48" max-vertical-offset="780">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/fonts/glyphicons-halflings-regular.svg">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-2.2269626" vertical-offset="1305" max-vertical-offset="3510">
@@ -716,7 +738,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="14" column="0" selection-start="197" selection-end="197" vertical-scroll-proportion="0.0" vertical-offset="195" max-vertical-offset="2010">
           <folding>
-            <marker date="1391291050000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1391297448000" expanded="true" signature="-1:-1" placeholder="{...}" />
           </folding>
         </state>
       </provider>
@@ -770,13 +792,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/less/navbar.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="525">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/less/index.less">
       <provider selected="true" editor-type-id="text-editor">
         <state line="88" column="0" selection-start="936" selection-end="936" vertical-scroll-proportion="-10.833333" vertical-offset="1060" max-vertical-offset="2235">
@@ -784,16 +799,60 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/view/index.html">
+    <entry file="file://$PROJECT_DIR$/css/less/bootstrap/variables.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="104" column="19" selection-start="5035" selection-end="5035" vertical-scroll-proportion="-65.0" vertical-offset="0" max-vertical-offset="3000">
+        <state line="32" column="29" selection-start="856" selection-end="856" vertical-scroll-proportion="-16.875" vertical-offset="75" max-vertical-offset="12495">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/less/bootstrap/variables.less">
+    <entry file="file://$PROJECT_DIR$/css/me.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="29" selection-start="856" selection-end="856" vertical-scroll-proportion="0.70434785" vertical-offset="75" max-vertical-offset="12495">
+        <state line="5" column="0" selection-start="69" selection-end="69" vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="810">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/view/links.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="780">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/less/bootstrap/navbar.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="335" column="9" selection-start="7764" selection-end="7771" vertical-scroll-proportion="5.64" vertical-offset="5307" max-vertical-offset="9330">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/less/navbar.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="23" selection-start="44" selection-end="44" vertical-scroll-proportion="-0.625" vertical-offset="0" max-vertical-offset="585">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/navbar.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="45" column="0" selection-start="750" selection-end="750" vertical-scroll-proportion="0.0" vertical-offset="166" max-vertical-offset="765">
+          <folding>
+            <marker date="1391297448000" expanded="true" signature="63:97" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/less/navbarActive.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="26" selection-start="114" selection-end="119" vertical-scroll-proportion="-4.375" vertical-offset="0" max-vertical-offset="540">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/view/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="111" column="107" selection-start="5279" selection-end="5279" vertical-scroll-proportion="0.33208954" vertical-offset="1487" max-vertical-offset="3180">
           <folding />
         </state>
       </provider>

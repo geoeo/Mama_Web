@@ -18,31 +18,34 @@
             <!-- Nav bar
                 ================================================== -->
 
-            <nav class="navbar navbar-default " role="navigation">
-                <!-- Brand and toggle get grouped for better mobile display -->
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#title-nav">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <a class="navbar-brand" href="#">Dr. Elisabeth Haubenstock</a>
-                </div>
+        <nav id="nav-one" class="navbar navbar-default" >
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#title-nav">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">Dr. Elisabeth Haubenstock</a>
+            </div>
 
-                <!-- Collect the nav links, forms, and other content for toggling -->
-                <div class="collapse navbar-collapse" id="title-nav">
-                    <ul class="nav navbar-nav">
-                        <li class="active"><a href="#">Startseite</a></li>
-                        <li><a href="kontakte.html">Notfallkotakte in Wien</a></li>
-                        <li><a href="me.html">Über mich</a></li>
-                        <li><a href="impressum.html">Impressum</a></li>
-                        <li><a href="links.html">Links</a></li>
-                    </ul>
-                </div><!-- /.navbar-collapse -->
-            </nav>
-        </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse title-nav">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="#">Startseite</a></li>
+                    <li><a href="kontakte.html">Notfallkotakte in Wien</a></li>
+                    <li><a href="me.html">Über mich</a></li>
+                    <li><a href="impressum.html">Impressum</a></li>
+                    <li><a href="links.html">Links</a></li>
+                </ul>
+            </div><!-- /.navbar-collapse -->
+        </nav>
+
     </div>
+
+    <!-- Nav bar
+        ================================================== -->
 
 
 
@@ -106,7 +109,7 @@
                     <a class="tab-link" href="#tabTwo" data-toggle="tab"><p class="lead tag-title">Therapieangebot</p></a>
                 </li>
                 <li>
-                    <a class="tab-link" href="#tabThree" data-toggle="tab"><p class="lead tag-title">Wahlärztin</p></a>
+                    <a class="tab-link" href="#tabThree" data-toggle="tab"><p class="lead tag-title">Kosten</p></a>
                 </li>
                 <li>
                     <a class="tab-link" href="#tabFour" data-toggle="tab"><p class="lead tag-title">Kontakt & Anfahrt</p></a>
@@ -186,6 +189,15 @@
                interval : 12000
             });
             $("#email-button").tooltip();
+
+            $(window).scroll(function(){
+
+                var top_offset = $(window).scrollTop();
+                console.log(top_offset);
+
+            });
+
+
 
         })
     </script>
