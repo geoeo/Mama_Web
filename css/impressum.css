@@ -1,0 +1,43 @@
+.background-top {
+  background-color: #541880;
+}
+hr {
+  height: 1px;
+  background-color: black;
+  color: black;
+}
+.navbar-brand {
+  font-size: 25px;
+  font-weight: 200;
+}
+.header {
+  height: 50px;
+}
+@media (min-width: 1200px) {
+  .navbar-nav {
+    padding-left: 15%;
+  }
+}
+@media (max-width: 480px) {
+  .navbar-brand {
+    font-size: 20px;
+  }
+}
+.navbar-nav > .active:after {
+  position: absolute;
+  bottom: -1px;
+  left: 50%;
+  display: block;
+  content: " ";
+  width: 0;
+  height: 0;
+  margin-left: -5px;
+  vertical-align: middle;
+  border-right: 5px solid transparent;
+  border-left: 5px solid transparent;
+  border-bottom: 6px solid;
+  color: #541880;
+}
+body {
+  background-color: #541880;
+}

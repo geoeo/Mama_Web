@@ -1,0 +1,128 @@
+@import "decl";
+@import "navbar";
+@import "navbarActive";
+@import "bootstrap/mixins";
+
+@tab-pane-offset: 50px;
+
+// Bootstrap override
+
+// Carousel fade effect
+.carousel-fade {
+  .carousel-inner {
+    .item {
+      opacity: 0;
+
+      .transition-property(opacity);
+
+    }
+
+    .active{
+      opacity: 1;
+
+      .left,
+      .right {
+        left: 0;
+        opacity: 0;
+        z-index: 1;
+      }
+    }
+
+    .next.left,
+    .prev.right {
+      opacity: 1;
+    }
+
+  }
+
+  .carousel-control {
+    opacity: 0;
+  }
+
+}
+
+
+
+.nav-tabs > li {
+  width : 215px;
+}
+
+.nav-tabs > li.active {
+  margin-bottom: -1px;
+
+}
+
+.nav-tabs > li > a {
+  margin-right: 0px;
+  text-align: center;
+}
+
+#main-nav-tab {
+  padding-left: 19.1%;
+
+}
+
+.tab-link {
+  height: 80px;
+}
+
+.tab-content {
+  padding-left: 13%;
+}
+
+.tab-pane {
+  width:82%;
+}
+
+.carousel-inner{
+  padding-bottom: 80px;
+}
+
+.carousel-inner > .item {
+  height: 400px;
+}
+
+.p {
+  word-wrap: break-word;
+}
+
+.tag-title {
+  font-size: 23px;
+}
+
+.fade {
+  opacity: 0;
+  -webkit-transition: opacity 1.25s linear;
+  transition: opacity 1.25s linear;
+}
+
+// Mobile and Tablet specific settings
+
+@media(max-width:(@screen-md-min + @tab-pane-offset)){
+
+  .nav-tabs > li > a:focus,
+  .nav-tabs > li > a:hover{
+    background: none;
+    border-top-color: @background-top;
+    border-left-color: @background-top;
+    border-right-color: @background-top;
+    border-bottom-color: @background-top;
+  }
+
+}
+
+@media (min-width: (@screen-md-min + @tab-pane-offset)) {
+
+  .nav-tabs > li > a:focus,
+  .nav-tabs > li > a:hover{
+    background: none;
+    border-top-color: @background-top;
+    border-left-color: @background-top;
+    border-right-color: @background-top;
+    border-bottom-color: @background-bottom;
+  }
+
+}
+
+
+
