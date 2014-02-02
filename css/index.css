@@ -68,9 +68,6 @@ span.glyphicon-envelope {
 .carousel-fade .carousel-inner .prev.right {
   opacity: 1;
 }
-.carousel-fade .carousel-control {
-  opacity: 0;
-}
 .nav-tabs > li {
   width: 215px;
 }

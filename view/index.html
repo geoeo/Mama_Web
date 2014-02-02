@@ -90,23 +90,9 @@
                     </div>
                 </div>
             </div>
-            <a class="left carousel-control" data-slide="prev"></a>
-            <a class="right carousel-control" data-slide="next"></a>
 
-            <button type="button" class="btn btn-default" style=" width: 30px;
-                     height: 30px;
-                     text-align: center;
-                     padding: 6px 0;
-                     font-size: 12px;
-                     float: left;
-                     <!--position: absolute;top:250px;border-radius: 12px;margin-left: 10px"> <span class="glyphicon glyphicon-chevron-left"></span></button>-->
-            <!--<button type="button" class="btn btn-default" style=" width: 30px;-->
-                     <!--height: 30px;-->
-                     <!--text-align: center;-->
-                     <!--padding: 6px 0;-->
-                     <!--font-size: 12px;-->
-                     <!--float:right;-->
-                     <!--position: relative;top:250px;border-radius: 12px;margin-right: 10px"> <span class="glyphicon glyphicon-chevron-right"></span></button>-->
+            <a class="left carousel-control"  data-slide="prev" href="#mainCarousel"> <span class="glyphicon glyphicon-chevron-left"></span></a>
+            <a class="right carousel-control "  data-slide="next" href="#mainCarousel"> <span class="glyphicon glyphicon-chevron-right"></span></a>
         </div><!-- /.carousel -->
 
         <!-- Tabs
@@ -182,7 +168,7 @@
                 </div>
                 <div class="col-md-6">
                     <h3>Interaktive Karte</h3>
-                    <iframe width="425" height="425" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/?ie=UTF8&amp;ll=48.211541,16.387782&amp;spn=0.001451,0.003256&amp;t=m&amp;z=19&amp;output=embed"></iframe><br /><small><a href="https://maps.google.com/?ie=UTF8&amp;ll=48.211541,16.387782&amp;spn=0.001451,0.003256&amp;t=m&amp;z=19&amp;source=embed" style="color:#0000FF;text-align:left">Größere Kartenansicht</a></small>
+                    <iframe width="425" height="425" frameborder="0" marginheight="0" marginwidth="0" src="https://maps.google.com/?ie=UTF8&amp;ll=48.211541,16.387782&amp;spn=0.001451,0.003256&amp;t=m&amp;z=19&amp;output=embed"></iframe><br /><small><a href="https://maps.google.com/?ie=UTF8&amp;ll=48.211541,16.387782&amp;spn=0.001451,0.003256&amp;t=m&amp;z=19&amp;source=embed" style="color:#0000FF;text-align:left">Größere Kartenansicht</a></small>
                 </div>
             </div>
             <!--<div class="row">-->
@@ -204,14 +190,6 @@
                interval : 12000
             });
             $("#email-button").tooltip();
-
-            $(window).scroll(function(){
-
-                var top_offset = $(window).scrollTop();
-                console.log(top_offset);
-
-            });
-
 
 
         })
