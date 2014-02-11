@@ -2,13 +2,27 @@
 @import "navbar";
 @import "bootstrap/mixins";
 
+// used for responsive resizing
 @tab-pane-offset: 50px;
 
 #email-button {
   margin-top: 20px;
 
-  width: 380px;
+  width: 100%
 
+}
+
+#email-well {
+  margin-top: 24px;
+
+  h6 {
+    word-wrap: break-word;
+  }
+}
+
+.footer {
+  bottom: 15px;
+  position: fixed;
 }
 
 // Bootstrap override
@@ -76,10 +90,6 @@ span.glyphicon-envelope {
   height: 80px;
 }
 
-.tab-content {
-  padding-left: 13%;
-}
-
 #main-nav-tab li {
 
     &.active{
@@ -122,6 +132,11 @@ span.glyphicon-envelope {
     border-left-color: @background-top;
     border-right-color: @background-top;
     border-bottom-color: @background-top;
+
+  }
+
+  .tab-content {
+    padding-left: 23%;
   }
 
 }
@@ -135,6 +150,10 @@ span.glyphicon-envelope {
     border-left-color: @background-top;
     border-right-color: @background-top;
     border-bottom-color: @background-bottom;
+  }
+
+  .tab-content {
+    padding-left: 13%;
   }
 
 }

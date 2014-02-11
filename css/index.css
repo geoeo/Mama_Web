@@ -45,7 +45,17 @@ hr {
 }
 #email-button {
   margin-top: 20px;
-  width: 380px;
+  width: 100%;
+}
+#email-well {
+  margin-top: 24px;
+}
+#email-well h6 {
+  word-wrap: break-word;
+}
+.footer {
+  bottom: 15px;
+  position: fixed;
 }
 span.glyphicon-envelope {
   font-size: 20px;
@@ -84,9 +94,6 @@ span.glyphicon-envelope {
 .tab-link {
   height: 80px;
 }
-.tab-content {
-  padding-left: 13%;
-}
 #main-nav-tab li {
   text-decoration: none;
 }
@@ -117,6 +124,9 @@ span.glyphicon-envelope {
     border-right-color: #541880;
     border-bottom-color: #541880;
   }
+  .tab-content {
+    padding-left: 23%;
+  }
 }
 @media (min-width: 1042px) {
   .nav-tabs > li > a:focus,
@@ -126,5 +136,8 @@ span.glyphicon-envelope {
     border-left-color: #541880;
     border-right-color: #541880;
     border-bottom-color: #ffffff;
+  }
+  .tab-content {
+    padding-left: 13%;
   }
 }
