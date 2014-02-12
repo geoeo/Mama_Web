@@ -13,9 +13,8 @@ myControllers.controller('indexCtrl', ['$scope',
 
         $('#home').addClass('active');
 
-//        $("#email-button").tooltip();
-
         $scope.emailTooltip = "Email";
+
 
         var firstTitle = 'Example headline';
         var secondTitle = 'Another example headline';
@@ -26,14 +25,17 @@ myControllers.controller('indexCtrl', ['$scope',
         var thirdMain = '<p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p><p><a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a></p>';
 
         $scope.myInterval = 12000;
+
         var slides = $scope.slides = [];
+        var slidesLength = 3;
+
         $scope.addSlide = function() {
             slides.push({
-                header: [firstTitle, secondTitle, thirdTitle ][slides.length % 3],
-                text: [firstMain, secondMain, thirdMain ][slides.length % 3]
+                header: [firstTitle, secondTitle, thirdTitle ][slides.length % slidesLength],
+                text: [firstMain, secondMain, thirdMain ][slides.length % slidesLength]
             });
         };
-        for (var i=0; i<4; i++) {
+        for (var i=0; i<slidesLength; i++) {
             $scope.addSlide();
         }
 

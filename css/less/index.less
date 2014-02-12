@@ -40,38 +40,37 @@ span.glyphicon-envelope {
 }
 
 // Carousel fade effect
-.carousel-fade {
-  .carousel-inner {
-    .item {
-      opacity: 0;
+.carousel-inner {
+  .item {
 
-      .transition-property(opacity);
+    .transition(opacity 1.5s linear);
 
-    }
-
-    .active{
-      opacity: 1;
-
-      .left,
-      .right {
-        left: 0;
-        opacity: 0;
-        z-index: 1;
-      }
-    }
-
-    .next.left,
-    .prev.right {
-      opacity: 1;
-    }
+    opacity: 0;
 
   }
+
+  .active{
+    opacity: 1;
+
+    .left,
+    .right {
+      left: 0;
+      opacity: 0;
+      z-index: 1;
+    }
+  }
+
+  .next.left,
+  .prev.right {
+    opacity: 1;
+  }
+
+}
 //
 //  .carousel-control {
 //    opacity: 0;
 //  }
 
-}
 
 .nav-tabs {
   padding-left: 19.1%;

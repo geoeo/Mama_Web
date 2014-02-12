@@ -6,6 +6,12 @@ hr {
   background-color: black;
   color: black;
 }
+.nav,
+.pagination,
+.carousel,
+.panel-title a {
+  cursor: pointer;
+}
 .navbar {
   border-radius: 0;
 }
