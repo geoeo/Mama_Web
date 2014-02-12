@@ -78,27 +78,23 @@ span.glyphicon-envelope {
 .carousel-fade .carousel-inner .prev.right {
   opacity: 1;
 }
+.nav-tabs {
+  padding-left: 19.1%;
+  background-color: #541880;
+}
 .nav-tabs > li {
   width: 215px;
+  text-decoration: none;
 }
 .nav-tabs > li.active {
-  margin-bottom: -1px;
+  color: #541880;
 }
-.nav-tabs > li > a {
+.nav-tabs > li a {
   margin-right: 0px;
   text-align: center;
 }
-#main-nav-tab {
-  padding-left: 19.1%;
-}
-.tab-link {
+.tab-heading {
   height: 80px;
-}
-#main-nav-tab li {
-  text-decoration: none;
-}
-#main-nav-tab li.active {
-  color: #541880;
 }
 .tab-pane {
   width: 82%;
@@ -129,6 +125,7 @@ span.glyphicon-envelope {
   }
 }
 @media (min-width: 1042px) {
+  .nav-tabs > li > a,
   .nav-tabs > li > a:focus,
   .nav-tabs > li > a:hover {
     background: none;

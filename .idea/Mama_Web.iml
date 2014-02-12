@@ -8,6 +8,7 @@
     <orderEntry type="library" name="Node.js Dependencies for Mama_Web" level="project" />
     <orderEntry type="library" name="jquery-1.10.2" level="application" />
     <orderEntry type="library" name="bootstrap" level="project" />
+    <orderEntry type="library" name="ui-bootstrap-tpls-0.10.0" level="application" />
   </component>
 </module>
 

@@ -65,40 +65,32 @@ span.glyphicon-envelope {
 
 }
 
+.nav-tabs {
+  padding-left: 19.1%;
+  background-color: @background-top;
 
+}
 
 .nav-tabs > li {
   width : 215px;
+
+  &.active{
+    color: @background-top;
+
+  }
+
+  text-decoration: none;
+
+  a {
+
+    margin-right: 0px;
+    text-align: center;
+
+  }
 }
 
-.nav-tabs > li.active {
-  margin-bottom: -1px;
-
-}
-
-.nav-tabs > li > a {
-  margin-right: 0px;
-  text-align: center;
-}
-
-#main-nav-tab {
-  padding-left: 19.1%;
-
-}
-
-.tab-link {
+.tab-heading {
   height: 80px;
-}
-
-#main-nav-tab li {
-
-    &.active{
-      color: @background-top;
-
-    }
-
-    text-decoration: none;
-
 }
 
 .tab-pane {
@@ -143,6 +135,7 @@ span.glyphicon-envelope {
 
 @media (min-width: (@screen-md-min + @tab-pane-offset)) {
 
+  .nav-tabs > li > a,
   .nav-tabs > li > a:focus,
   .nav-tabs > li > a:hover{
     background: none;

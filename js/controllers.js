@@ -4,25 +4,38 @@
 
 var myControllers = angular.module('myControllers', []);
 
-myControllers.controller('indexCtrl', [
-    function() {
+myControllers.controller('indexCtrl', ['$scope',
+    function($scope) {
 
-        $(document).ready(function(){
+        $('#currentCSS').attr('href','../css/min/index.min.css')
 
+        $('ul.navbar-nav ').children().removeClass('active');
 
-            $('#currentCSS').attr('href','../css/min/index.min.css')
+        $('#home').addClass('active');
 
-            $('ul.navbar-nav ').children().removeClass('active');
+//        $("#email-button").tooltip();
 
-            $('#home').addClass('active');
+        $scope.emailTooltip = "Email";
 
-            $("#mainCarousel").carousel({
-                interval : 12000
+        var firstTitle = 'Example headline';
+        var secondTitle = 'Another example headline';
+        var thirdTitle = 'One more for good measure';
+
+        var firstMain = '<p>Note: If you\'re viewing this page via a <code>file://</code> URL, the "next" and "previous" Glyphicon buttons on the left and right might not load/display properly due to web browser security rules.</p><p><a class="btn btn-lg btn-primary" href="#" role="button">Sign up today</a></p>';
+        var secondMain = '<p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p><p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>';
+        var thirdMain = '<p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p><p><a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a></p>';
+
+        $scope.myInterval = 12000;
+        var slides = $scope.slides = [];
+        $scope.addSlide = function() {
+            slides.push({
+                header: [firstTitle, secondTitle, thirdTitle ][slides.length % 3],
+                text: [firstMain, secondMain, thirdMain ][slides.length % 3]
             });
-            $("#email-button").tooltip();
-
-        });
-
+        };
+        for (var i=0; i<4; i++) {
+            $scope.addSlide();
+        }
 
     }]);
 
