@@ -12,6 +12,27 @@ hr {
 .panel-title a {
   cursor: pointer;
 }
+.sample-show-hide {
+  padding: 10px;
+  border: 1px solid black;
+  background: white;
+}
+.sample-show-hide.ng-hide-add,
+.sample-show-hide.ng-hide-remove {
+  -webkit-transition: all linear 0.5s;
+  -moz-transition: all linear 0.5s;
+  -o-transition: all linear 0.5s;
+  transition: all linear 0.5s;
+  display: block!important;
+}
+.sample-show-hide.ng-hide-add.ng-hide-add-active,
+.sample-show-hide.ng-hide-remove {
+  opacity: 0;
+}
+.sample-show-hide.ng-hide-add,
+.sample-show-hide.ng-hide-remove.ng-hide-remove-active {
+  opacity: 1;
+}
 .navbar {
   border-radius: 0;
 }
@@ -22,6 +43,10 @@ hr {
 .header {
   height: 50px;
 }
+.title-nav {
+  position: relative;
+  z-index: 99;
+}
 @media (min-width: 1200px) {
   .navbar-nav {
     padding-left: 15%;
@@ -29,7 +54,7 @@ hr {
 }
 @media (max-width: 480px) {
   .navbar-brand {
-    font-size: 20px;
+    font-size: 18px;
   }
 }
 @media (min-width: 992px) {

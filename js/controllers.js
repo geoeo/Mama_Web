@@ -7,11 +7,18 @@ var myControllers = angular.module('myControllers', []);
 myControllers.controller('indexCtrl', ['$scope',
     function($scope) {
 
+//        val navbarToggleOpen = false;
+
         $('#currentCSS').attr('href','../css/min/index.min.css')
 
         $('ul.navbar-nav ').children().removeClass('active');
 
         $('#home').addClass('active');
+
+//        $('.navbar-toggle').click(function(){
+//            if(navbarToggleOpen)
+//            $('.carousel-inner .item')
+//        })
 
         $scope.emailTooltip = "Email";
 
