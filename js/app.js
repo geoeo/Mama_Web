@@ -2,7 +2,7 @@
  * Created by marchaubenstock on 11/02/2014.
  */
 
-var myApp = angular.module('myApp', ['ngRoute','myControllers','ui.bootstrap','ngSanitize','ngAnimate']);
+var myApp = angular.module('myApp', ['ngRoute','myControllers','ui.bootstrap','ngSanitize']);
 
 myApp.config(['$routeProvider',
     function($routeProvider) {

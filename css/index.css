@@ -12,11 +12,6 @@ hr {
 .panel-title a {
   cursor: pointer;
 }
-.sample-show-hide {
-  padding: 10px;
-  border: 1px solid black;
-  background: white;
-}
 .sample-show-hide.ng-hide-add,
 .sample-show-hide.ng-hide-remove {
   -webkit-transition: all linear 0.5s;
@@ -98,9 +93,9 @@ span.glyphicon-envelope {
   font-size: 20px;
 }
 .carousel-inner .item {
-  -webkit-transition: opacity 1.5s linear;
-  transition: opacity 1.5s linear;
   opacity: 0;
+  -webkit-transition-property: opacity;
+  transition-property: opacity;
 }
 .carousel-inner .active {
   opacity: 1;

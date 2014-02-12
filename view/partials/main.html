@@ -5,7 +5,7 @@
     <div>
         <carousel interval="myInterval">
             <slide ng-repeat="slide in slides" active="slide.active">
-                <div class="carousel-caption" ng-show="closed">
+                <div class="carousel-caption sample-show-hide" ng-show="closed" >
                     <h1>{{slide.header}}</h1>
                     <div ng-bind-html="slide.text"></div>
                 </div>
